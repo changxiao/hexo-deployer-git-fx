@@ -1,6 +1,6 @@
 {
-  "name": "hexo-deployer-git",
-  "version": "0.4.0",
+  "name": "hexo-deployer-git-fx",
+  "version": "0.4.2",
   "description": "Git deployer plugin of Hexo.",
   "main": "index",
   "scripts": {
@@ -12,7 +12,7 @@
   "directories": {
     "lib": "./lib"
   },
-  "repository": "hexojs/hexo-deployer-git",
+  "repository": "fx-team/hexo-deployer-git-fx",
   "homepage": "https://hexo.io/",
   "keywords": [
     "hexo",
@@ -20,7 +20,7 @@
     "deploy",
     "deployer"
   ],
-  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "author": "Hsiao <changxiao0707@sina.com>",
   "maintainers": [
     "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)"
   ],
