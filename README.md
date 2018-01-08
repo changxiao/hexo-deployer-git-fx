@@ -1,3 +1,40 @@
+# hexo-deployer-git-fx
+## Installation
+
+``` bash
+$ npm install hexo-deployer-git-fx --save
+```
+## Options
+
+You can configure this plugin in `_config.yml`.
+
+``` yaml
+# You can use this:
+deploy:
+  type: gitfx
+  repo: <repository url>
+  branch: [branch]
+  message: [message]
+  extend_dirs: [extend directory]
+  ignore_hidden: false # default is true
+  ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
+  configDir: config.js   username和email配置文件名称
+```
+
+config.js
+``` js
+module.exports = {
+	'username': 'changxiao',
+	'email': 'changxiao0707@sina.com'
+};
+
+```
+
+新的readme正在整理，以下为以前readme部分
+
+
+
+
 # hexo-deployer-git
 
 [![Build Status](https://travis-ci.org/hexojs/hexo-deployer-git.svg?branch=master)](https://travis-ci.org/hexojs/hexo-deployer-git)  [![NPM version](https://badge.fury.io/js/hexo-deployer-git.svg)](http://badge.fury.io/js/hexo-deployer-git) [![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-deployer-git.svg)](https://coveralls.io/r/hexojs/hexo-deployer-git?branch=master) [![Build status](https://ci.appveyor.com/api/projects/status/liqy4nib33ht70so/branch/master?svg=true)](https://ci.appveyor.com/project/tommy351/hexo-deployer-git/branch/master)
